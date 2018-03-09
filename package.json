@@ -1,0 +1,19 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "A Simple Ethereum project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmauricios/ether-kickstart.git"
+  },
+  "author": "Mauricio Serna Florez < @fmauricios >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmauricios/ether-kickstart/issues"
+  },
+  "homepage": "https://github.com/fmauricios/ether-kickstart#readme"
+}

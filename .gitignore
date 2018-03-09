@@ -1,0 +1,19 @@
+# Linux
+
+*.swp
+*.log
+
+# Mac
+.DS_Store
+
+# Node
+
+node_modules
+
+# VSCode
+
+.vscode
+
+# JS Files
+
+config.js
