@@ -17,3 +17,7 @@ node_modules
 # JS Files
 
 config.js
+
+# Nextjs
+
+.next
