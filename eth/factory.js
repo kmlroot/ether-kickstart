@@ -1,10 +1,11 @@
-const web3 = require('./web3')
-const campaignFactory = require('./build/CampaignFactory.json')
-const { contractAddress } = require('../config')
+import web3 from './web3'
+import campaignFactory from './build/CampaignFactory.json'
+
+import { contractAddress } from '../config'
 
 const instance = new web3.eth.Contract(
   JSON.parse(campaignFactory.interface),
   contractAddress
 )
 
-module.exports = instance
+export default instance
