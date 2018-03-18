@@ -7,6 +7,8 @@ import {
   Message
 } from 'semantic-ui-react'
 
+import { Router } from '../../routes'
+
 import Layout from '../../components/layout'
 
 import factory from '../../eth/factory'
@@ -33,6 +35,8 @@ class CampaignNew extends Component {
       await factory.methods.createCampaign(minimumContribution).send({
         from: accounts[0]
       })
+
+      Router.pushRoute('/')
     } catch (err) {
       this.setState({
         errorMessage: err.message
